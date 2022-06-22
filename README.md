@@ -49,7 +49,7 @@ term filename
  
 Formula for index evaluation: 
 
-```k1 * document_length + log_k2(n_term_appearance) + 1 / log_k3(date_of_1_july_2021_in_ms - date_of_file_last_modification_in_ms)```
+```k1 * document_length + log_k2``````(n_term_appearance) + 1 / log_k3(date_of_1_july_2021_in_ms - date_of_file_last_modification_in_ms)```
 
 where k1 = 0.1, k2 = 10, k3 = 10000
 
